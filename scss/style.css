@@ -350,7 +350,7 @@ html {
   transition: 2s;
   position: relative;
   margin-right: 80px;
-  box-shadow: 1px 3px 7px rgba(30, 238, 48, 0.893);
+  box-shadow: 4px 3px 5px rgba(14, 18, 11, 0.79);
   background-color: black;
   opacity: 0.9;
 }
@@ -444,6 +444,14 @@ footer .r {
 }
 
 @media (max-width: 1100px) {
+  .w_text {
+    font-size: 17px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    background: url("../img/h_line.png");
+    background-repeat: no-repeat;
+    background-position: 72px 60px;
+  }
   .skill_b {
     width: auto;
   }
